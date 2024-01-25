@@ -97,5 +97,6 @@ for user in usernames_to_deliver:
     finally:
         # Remove the processed username from the file
         remove_username_from_file(user)
+        time.sleep(2)
 
 driver.quit()
